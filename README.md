@@ -1,29 +1,41 @@
-# programming in c
 # Programming in C
 
-My notes and practice code while working through *Programming in C* by <author>, <edition> edition.
+My notes and practice code while working through *Programming in C* by Stephen G. Kochan, 4th edition.
 
 ## About
 
-<One or two sentences: why you're reading it, what you hope to learn.>
+Write one or two sentences here about why you're reading this book and what you want to learn from it.
 
 ## Structure
 
-- Each chapter has its own folder, e.g. `ch01-introduction/`
-- Programs from the book are named `chXX_<name>.c`
-- End-of-chapter exercises are named `exXX_YY_<name>.c`
+- Each chapter has its own folder, e.g. `ch03-variables-data-types/`
+- Programs from the book are named `chXX_name.c`
+- End-of-chapter exercises are named `exXX_YY_name.c`
 
 ## Progress
 
-- [ ] Chapter 1: <title>
-- [ ] Chapter 2: <title>
-- [ ] Chapter 3: <title>
-<!-- keep going for each chapter -->
+- [ ] Chapter 1: Some Fundamentals
+- [ ] Chapter 2: Compiling and Running Your Programs
+- [ ] Chapter 3: Variables, Data Types, and Arithmetic Expressions
+- [ ] Chapter 4: Program Looping
+- [ ] Chapter 5: Making Decisions
+- [ ] Chapter 6: Working with Arrays
+- [ ] Chapter 7: Working with Functions
+- [ ] Chapter 8: Working with Structures
+- [ ] Chapter 9: Working with Character Strings
+- [ ] Chapter 10: Pointers
+- [ ] Chapter 11: Operations on Bits
+- [ ] Chapter 12: The Preprocessor
+- [ ] Chapter 13: More on Data Types
+- [ ] Chapter 14: Working with Larger Programs
+- [ ] Chapter 15: Input and Output Operations in C
+- [ ] Chapter 16: Miscellaneous and Advanced Features
+- [ ] Chapter 17: Debugging Programs
 
 ## Building
 
-<Fill this in once you pick gcc, a Makefile, or CMake. For plain gcc, it's one line showing how to compile a single file.>
+Compile a single file with gcc:
 
-## Notes
+    gcc ch03_example.c -o ch03_example
 
-<Short notes on anything that tripped you up, added as you go.>
+##
